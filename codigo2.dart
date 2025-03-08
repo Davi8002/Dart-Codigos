@@ -26,5 +26,14 @@ void main() {
   }
   
   //LOOP
-  
+  for (var i = 4; i < 1000000; i *= 4) {
+    print(i / 4);
+  }
+
+  int timer = 10;
+
+  while (timer != 0) {
+    timer--;
+    print("Vezes a executar: $timer");
+  }
 }
